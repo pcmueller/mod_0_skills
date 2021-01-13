@@ -1,0 +1,22 @@
+class: Beer
+
+attributes:
+
+color (string)
+style (string)
+servingVessel (string)
+isInStock (Boolean)
+numberInStock (integer)
+sizeInOunces (integer)
+pricePerUnit (float)
+dateLastOrdered (datetime)
+productNumber (hash table)
+
+
+methods:
+
+openBeer => numberInStock - 1
+checkStock => return isInStock value of true/false
+reorder => replace dateLastOrdered with current datetime value
+changePrice => remove/replace pricePerUnit value
+addNewProduct => map new key (product name) to new value (product number) in index

@@ -1,0 +1,15 @@
+Pete's Sautee Pan
+
+attributes:
+
+material = stainless steel
+weightInOunces = 32
+hasBeenUsed = false
+numberOfHandles = 1
+
+methods:
+
+use => hasBeenUsed = true
+weigh => weightInOunces = 31
+identifyMaterial => print "stainless steel"
+addHandle => increase numberOfHandles + 1 = 2

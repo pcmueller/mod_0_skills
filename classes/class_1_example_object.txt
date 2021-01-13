@@ -1,0 +1,20 @@
+Pete's Left Hand Milk Stout
+
+attributes:
+
+color = "dark brown"
+style = "milk stout"
+servingVessel = "bottle"
+isInStock = true
+numberInStock = 5
+sizeInOunces = 12
+pricePerUnit = 6.99
+dateLastOrdered = 12/03/20
+beerSpecs (object) = { "brand": "Left Hand", "productName": "Milk Stout", "productNumber": 143214}
+
+methods:
+
+openBeer => numberInStock - 1 = 4
+checkStock => return isInStock value of true
+reorder => replace dateLastOrdered with 01/13/21
+changePrice => remove/replace pricePerUnit value with 7.99

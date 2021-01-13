@@ -1,0 +1,29 @@
+1.
+var food = "pizza";
+
+2.
+var is_delicious = true;
+
+3.
+food = "hot dog";
+
+4.
+var num2 = 4;
+
+5.
+var num7 = 12;
+
+6.
+var quotient = (num7/num2);
+
+7.
+var songs = ["Purple Haze", "Alison", "Rapper's Delight"];
+
+8.
+n/a
+
+9.
+songs.shift();
+
+10.
+songs.length;

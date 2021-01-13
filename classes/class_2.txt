@@ -1,0 +1,15 @@
+class: Pan
+
+attributes:
+
+material (string)
+weightInOunces (float)
+hasBeenUsed (Boolean)
+numberOfHandles (integer)
+
+methods:
+
+use => hasBeenUsed = true
+weigh => add/replace value to weightInOunces
+identifyMaterial => print material
+addHandle => increase numberOfHandles + 1

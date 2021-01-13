@@ -10,7 +10,7 @@ numberInStock (integer)
 sizeInOunces (integer)
 pricePerUnit (float)
 dateLastOrdered (datetime)
-productNumber (hash table)
+beerSpecs (object) = { "brand": "", "productName": "", "productNumber": 0}
 
 
 methods:
@@ -19,4 +19,3 @@ openBeer => numberInStock - 1
 checkStock => return isInStock value of true/false
 reorder => replace dateLastOrdered with current datetime value
 changePrice => remove/replace pricePerUnit value
-addNewProduct => map new key (product name) to new value (product number) in index
